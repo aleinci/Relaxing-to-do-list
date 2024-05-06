@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/curso-react-intro/static/css/main.e7ef6786.css",
+    "main.js": "/curso-react-intro/static/js/main.04566b6e.js",
+    "static/media/background1.jpg": "/curso-react-intro/static/media/background1.bb766e078e2bffaf29a4.jpg",
+    "static/media/Montserrat.ttf": "/curso-react-intro/static/media/Montserrat.7e687123cd4528224ce5.ttf",
+    "index.html": "/curso-react-intro/index.html",
+    "main.e7ef6786.css.map": "/curso-react-intro/static/css/main.e7ef6786.css.map",
+    "main.04566b6e.js.map": "/curso-react-intro/static/js/main.04566b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7ef6786.css",
+    "static/js/main.04566b6e.js"
+  ]
+}
