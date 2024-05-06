@@ -1,0 +1,35 @@
+li{
+	position: relative;
+	background: rgba(255, 255, 255, .3);
+	margin-bottom: 0.5rem;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 0.5rem;
+	border: solid 2px rgba(0, 0, 0, .3);
+}
+
+.icon-container-delete{
+	position: relative;
+}
+
+.icon-complete{
+	fill:gray;
+}
+
+.icon-complete:hover{
+	fill:green;
+}
+
+.icon-delete{
+	position: absolute;
+	top:-30px;
+	right: -5px;
+	fill:gray;
+}
+
+.icon-delete:hover{
+	fill:red;
+}

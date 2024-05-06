@@ -1,0 +1,7 @@
+.CreateTodoButton{
+	background: rgba(200, 200, 200, .5);
+	border:solid 2px white;
+	width: 50%;
+	padding: 2rem;
+
+}
