@@ -6,7 +6,7 @@ function TodoItem ({text, completed, onComplete, onDelete}) {
   return(
     <li>
       <span  onClick={onComplete}>{completed? 
-        <MdCheckBox size="24px" color="green" /> 
+        <MdCheckBox size="24px" color="lightgreen" /> 
         : <MdCheckBoxOutlineBlank size="24px" className="icon-complete"/>}</span>
 
       <p>{text}</p>

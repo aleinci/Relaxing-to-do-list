@@ -1,6 +1,7 @@
 import "./CreateTodoButton.css";
 import React from 'react';
 import {TodoContext} from '../TodoContext';
+import { FaPlus } from "react-icons/fa";
 
 function CreateTodoButton ({setOpenModal}) {
   
@@ -9,7 +10,7 @@ function CreateTodoButton ({setOpenModal}) {
     <button className="CreateTodoButton" onClick={(event)=>{
       setOpenModal(state => !state);
     }}>
-      Insertar ➕
+      Añadir todo <FaPlus className="icon" />
     </button>
   );
 }

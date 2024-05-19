@@ -3,4 +3,11 @@ input{
 	font-size: 2rem;
 	text-align: center;
 	padding: 0.5rem 0.5rem;
+	background: rgba(0, 0, 0, .2);
+	border:solid 2px rgba(0, 0, 0, .5);
+	color: white;
+
+}
+input::placeholder{
+	color:white;
 }

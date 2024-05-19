@@ -1,7 +1,27 @@
 .CreateTodoButton{
-	background: rgba(200, 200, 200, .5);
-	border:solid 2px white;
+	color: white;
+	background: rgba(0, 0, 0, .2);
+	border:solid 2px rgba(0, 0, 0, .5);
 	width: 50%;
 	padding: 2rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
 
+.icon{
+	font-size: 1.7rem;
+	position: absolute;
+	
+}
+
+@media screen and (max-width:600px){
+	.CreateTodoButton{
+		
+		
+		
+		width: 80%;
+		padding: 2rem;
+		font-size: 1.2rem;
+		cursor: pointer;
+	}
 }

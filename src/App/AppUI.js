@@ -25,38 +25,42 @@ function AppUI() {
 
 	return (
     <div className="container">
+      <div className="box">
+        <div>
+          <TodoCounter />
+          <TodoSearch />
+        </div>
 
-      <TodoCounter />
-      <TodoSearch />
+        <div className='item-list'>
+        
+          <TodoList >
+            {loading && <TodosLoading />}
+            {error && <TodosError />}
+            {(!loading && searchedTodos == 0) && <EmptyTodos />}
 
-      
-      <TodoList >
-        {loading && <TodosLoading />}
-        {error && <TodosError />}
-        {(!loading && searchedTodos == 0) && <EmptyTodos />}
+            {searchedTodos.map(todo => (
+              <TodoItem 
+                key={todo.text}
+                text={todo.text}
+                completed={todo.completed}
+                onComplete={()=>completeTodo(todo.text)}
+                onDelete={()=>deleteTodo(todo.text)}
+              />
+            ))}
+           
+            </TodoList >
+        </div>
 
-        {searchedTodos.map(todo => (
-          <TodoItem 
-            key={todo.text}
-            text={todo.text}
-            completed={todo.completed}
-            onComplete={()=>completeTodo(todo.text)}
-            onDelete={()=>deleteTodo(todo.text)}
-          />
-        ))}
-       
-        </TodoList >
-    
+        <div className='add-btn'>
+          <CreateTodoButton setOpenModal={setOpenModal} />
+        </div>
 
-      
-      <CreateTodoButton setOpenModal={setOpenModal} />
-
-      {openModal && (
-        <Modal>
-          <TodoForm />
-        </Modal>
-      )}
-
+        {openModal && (
+          <Modal>
+            <TodoForm />
+          </Modal>
+        )}
+      </div>
     </div>
   );
 }

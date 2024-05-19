@@ -1,6 +1,8 @@
+
+
 li{
 	position: relative;
-	background: rgba(255, 255, 255, .3);
+	background: rgba(0, 0, 0, .2);
 	margin-bottom: 0.5rem;
 	list-style: none;
 	display: flex;
@@ -9,6 +11,8 @@ li{
 	gap: 1.5rem;
 	padding: 0.5rem;
 	border: solid 2px rgba(0, 0, 0, .3);
+	min-width: 200px;
+	max-width: 500px;
 }
 
 .icon-container-delete{
@@ -16,20 +20,26 @@ li{
 }
 
 .icon-complete{
-	fill:gray;
+	fill:white;
 }
 
 .icon-complete:hover{
-	fill:green;
+	fill:lightgreen;
 }
 
 .icon-delete{
 	position: absolute;
 	top:-30px;
 	right: -5px;
-	fill:gray;
+	fill:white;
 }
 
 .icon-delete:hover{
 	fill:red;
+}
+
+@media screen and (max-width:600px){
+	li{
+		max-width: 100%;
+	}
 }
