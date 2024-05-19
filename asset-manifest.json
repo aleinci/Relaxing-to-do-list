@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/curso-react-intro/static/css/main.e7ef6786.css",
-    "main.js": "/curso-react-intro/static/js/main.04566b6e.js",
-    "static/media/background1.jpg": "/curso-react-intro/static/media/background1.bb766e078e2bffaf29a4.jpg",
-    "static/media/Montserrat.ttf": "/curso-react-intro/static/media/Montserrat.7e687123cd4528224ce5.ttf",
-    "index.html": "/curso-react-intro/index.html",
-    "main.e7ef6786.css.map": "/curso-react-intro/static/css/main.e7ef6786.css.map",
-    "main.04566b6e.js.map": "/curso-react-intro/static/js/main.04566b6e.js.map"
+    "main.css": "/relaxing-to-do-list/static/css/main.f22f1406.css",
+    "main.js": "/relaxing-to-do-list/static/js/main.41fafe6f.js",
+    "static/media/background1.jpg": "/relaxing-to-do-list/static/media/background1.bb766e078e2bffaf29a4.jpg",
+    "static/media/Montserrat.ttf": "/relaxing-to-do-list/static/media/Montserrat.7e687123cd4528224ce5.ttf",
+    "index.html": "/relaxing-to-do-list/index.html",
+    "main.f22f1406.css.map": "/relaxing-to-do-list/static/css/main.f22f1406.css.map",
+    "main.41fafe6f.js.map": "/relaxing-to-do-list/static/js/main.41fafe6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7ef6786.css",
-    "static/js/main.04566b6e.js"
+    "static/css/main.f22f1406.css",
+    "static/js/main.41fafe6f.js"
   ]
 }
