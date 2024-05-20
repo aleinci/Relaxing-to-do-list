@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/relaxing-to-do-list/static/css/main.f22f1406.css",
-    "main.js": "/relaxing-to-do-list/static/js/main.41fafe6f.js",
+    "main.css": "/relaxing-to-do-list/static/css/main.63e62718.css",
+    "main.js": "/relaxing-to-do-list/static/js/main.6025c3b1.js",
     "static/media/background1.jpg": "/relaxing-to-do-list/static/media/background1.bb766e078e2bffaf29a4.jpg",
     "static/media/Montserrat.ttf": "/relaxing-to-do-list/static/media/Montserrat.7e687123cd4528224ce5.ttf",
     "index.html": "/relaxing-to-do-list/index.html",
-    "main.f22f1406.css.map": "/relaxing-to-do-list/static/css/main.f22f1406.css.map",
-    "main.41fafe6f.js.map": "/relaxing-to-do-list/static/js/main.41fafe6f.js.map"
+    "main.63e62718.css.map": "/relaxing-to-do-list/static/css/main.63e62718.css.map",
+    "main.6025c3b1.js.map": "/relaxing-to-do-list/static/js/main.6025c3b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f22f1406.css",
-    "static/js/main.41fafe6f.js"
+    "static/css/main.63e62718.css",
+    "static/js/main.6025c3b1.js"
   ]
 }
