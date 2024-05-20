@@ -10,7 +10,7 @@ function TodoSearch () {
     <input
     value={searchValue}
     onChange={ (event)=>{setSearchValue(event.target.value)} }
-     placeholder="Escribe tu TODO!" />
+     placeholder="Buscar tu TODO!" />
     
   );
 }

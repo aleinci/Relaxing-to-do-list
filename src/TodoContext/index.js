@@ -52,7 +52,7 @@ function TodoProvider({ children }) {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   }
-console.log(completedTodos);
+
 
 	return(
 		<TodoContext.Provider value={{
